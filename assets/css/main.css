@@ -30,14 +30,20 @@ img {
 	padding: 10px 20px;
 	margin: 0;
 }
-
 .article a{
 	margin: 0;
 }
-
+.article .title {
+	padding: 0;
+}
 .brush {
 	font-family: 'Nanum Pen Script' , cursive;
 }
+.readable {
+	font-size: 15px;
+	line-height: 25px;
+}
+
 
 .gamepan-header {
 	position: fixed;
@@ -50,7 +56,6 @@ img {
 	padding: 10px;
 	margin: 0;
 }
-
 .gamepann-header div{
 	padding: 0;
 	margin: 0;
@@ -77,14 +82,12 @@ img {
 	padding: 0;
 	color: white;
 }
-
 .gamepan-footer .title {
 	font-size: 20px;
 	margin: 0;
 	padding: 25px;
 	background: rgb(30 , 30 , 30);
 }
-
 .gamepan-footer .list {
 	font-size: 15px;
 	text-align: right;
