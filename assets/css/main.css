@@ -1,0 +1,103 @@
+/**
+ * GamePan Design v1.0
+ */
+
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Nanum Gothic' , sans-serif;
+}
+a {
+	color: black;
+	text-decoration: rgb(0 , 200 , 255);
+	margin: 3px;
+}
+img {
+	max-width: 100%;
+}
+
+.title {
+	font-size: 20px;
+	padding: 20px 20px 10px 20px;
+	margin: 0;
+}
+.article {
+	font-size: 15px;
+	line-height: 30px;
+	padding: 10px 20px;
+	margin: 0;
+}
+
+.article a{
+	margin: 0;
+}
+
+.brush {
+	font-family: 'Nanum Pen Script' , cursive;
+}
+
+.gamepan-header {
+	position: fixed;
+	width: 100%;
+	height: auto;
+	background: white;
+	color: black;;
+	font-size: 20px;
+	box-shadow: 0 0 4px rgba(0 , 0 , 0 , 0.5);
+	padding: 10px;
+	margin: 0;
+}
+
+.gamepann-header div{
+	padding: 0;
+	margin: 0;
+}
+.gamepan-space--header {
+	line-height: 40px;
+}
+.gamepan-button {
+	border: 1px solid rgb(50 , 50 , 50);
+	outline: 0;
+	background: white;
+	color: black;
+	font-size: 15px;
+	padding: 15px;
+	margin: 5px;
+}
+.gamepan-button:hover {
+	background: rgb(50 , 50 , 50);
+	color:white;
+}
+.gamepan-footer {
+	background: rgb(50 , 50 , 50);
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+.gamepan-footer .title {
+	font-size: 20px;
+	margin: 0;
+	padding: 25px;
+	background: rgb(30 , 30 , 30);
+}
+
+.gamepan-footer .list {
+	font-size: 15px;
+	text-align: right;
+	padding: 25px;
+	margin: 20px 0 0 0;
+}
+.gamepan-footer .list a {
+	margin: 3px;
+	color: white;
+}
+
+@media(min-width: 800px) {
+	.gamepann-header div {
+		width: 800px;
+	}
+}
