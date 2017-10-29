@@ -38,6 +38,8 @@ img {
 }
 .brush {
 	font-family: 'Nanum Pen Script' , cursive;
+	font-size: 20px;
+	line-height: 30px;
 }
 .readable {
 	font-size: 15px;
