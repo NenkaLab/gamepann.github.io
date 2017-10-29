@@ -27,13 +27,16 @@ img {
 .article {
 	font-size: 15px;
 	line-height: 30px;
-	padding: 10px 20px;
+	padding: 15px 20px;
 	margin: 0;
 }
 .article a{
 	margin: 0;
 }
 .article .title {
+	padding: 0;
+}
+.article .article {
 	padding: 0;
 }
 .brush {
