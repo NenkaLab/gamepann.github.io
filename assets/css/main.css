@@ -11,9 +11,13 @@ body {
 	font-family: 'Nanum Gothic' , sans-serif;
 }
 a {
+	text-decoration: none;
 	color: black;
-	text-decoration: rgb(0 , 200 , 255);
-	margin: 3px;
+	border-bottom: 3px solid #2196f3;
+}
+a:hover {
+	color: #ff00c3;
+	background: none;
 }
 img {
 	max-width: 100%;
@@ -100,6 +104,7 @@ img {
 	margin: 20px 0 0 0;
 }
 .gamepan-footer .list a {
+	border-bottom: 0 solid red;
 	margin: 3px;
 	color: white;
 }
