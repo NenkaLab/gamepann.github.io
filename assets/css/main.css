@@ -1,116 +1,136 @@
 /**
- * GamePan Design v1.0
+ * 디자인 판 v1.0
  */
 
 @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
-@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+
 
 body {
 	padding: 0;
 	margin: 0;
-	font-family: 'Nanum Gothic' , sans-serif;
 }
 a {
+	color: #1976d2;
 	text-decoration: none;
-	color: black;
-	border-bottom: 3px solid #2196f3;
+	background: none;
 }
 a:hover {
-	color: #ff00c3;
-	background: none;
+	text-decoration: underline;
+}
+p {
+	margin: 0;
+	padding: 0;
 }
 img {
 	max-width: 100%;
 }
+span {
+	display: inline;
+}
 
-.title {
+
+/**
+ * 배경 이미지
+ */
+
+
+.img-main {
+	background: url('https://gamepann.github.io/assets/img/main.jpg');
+	background-size: cover;
+	color: white;
+}
+
+
+/**
+ * 글자 스타일
+ */
+
+.h1 {
+	font-size: 50px;
+}
+.h2 {
+	font-size: 40px;
+}
+.h3 {
+	font-size: 30px;
+}
+.h4 {
 	font-size: 20px;
-	padding: 20px 20px 10px 20px;
-	margin: 0;
 }
 .article {
-	font-size: 15px;
-	line-height: 30px;
-	padding: 20px 10px;
-	margin: 0;
-}
-.article a{
-	margin: 0;
-}
-.article .title {
-	padding: 0;
-}
-.article .article {
-	padding: 0;
-}
-.brush {
-	font-family: 'Nanum Pen Script' , cursive;
-	font-size: 20px;
-	line-height: 30px;
-}
-.readable {
-	font-size: 15px;
+	padding: 10px;
+	font-size: 18px;
 	line-height: 25px;
 }
 
 
-.gamepan-header {
-	position: fixed;
-	width: 100%;
-	height: auto;
-	background: white;
-	color: black;;
-	font-size: 20px;
-	box-shadow: 0 0 4px rgba(0 , 0 , 0 , 0.5);
-	padding: 10px;
-	margin: 0;
-}
-.gamepann-header div{
-	padding: 0;
-	margin: 0;
-}
-.gamepan-space--header {
-	line-height: 40px;
-}
-.gamepan-button {
-	border: 1px solid rgb(50 , 50 , 50);
-	outline: 0;
-	background: white;
-	color: black;
-	font-size: 15px;
-	padding: 15px;
-	margin: 5px;
-}
-.gamepan-button:hover {
-	background: rgb(50 , 50 , 50);
-	color:white;
-}
-.gamepan-footer {
-	background: rgb(50 , 50 , 50);
-	margin: 0;
-	padding: 0;
-	color: white;
-}
-.gamepan-footer .title {
-	font-size: 20px;
-	margin: 0;
+/**
+ * 레이아웃들
+ */
+
+.layout-common {
 	padding: 25px;
-	background: rgb(30 , 30 , 30);
-}
-.gamepan-footer .list {
-	font-size: 15px;
-	text-align: right;
-	padding: 25px;
-	margin: 20px 0 0 0;
-}
-.gamepan-footer .list a {
-	border-bottom: 0 solid red;
-	margin: 3px;
-	color: white;
 }
 
+.layout-horizontal {
+	padding: 25px;
+	overflow: scroll;
+}
+.layout-horizontal div {
+	display: inline;
+	margin-right: 10px;
+}
+
+.container {
+	display: -webkit-flex;
+	display:flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+.container div {
+	box-sizing: border-box;
+	min-height: 150px;
+	min-width: 150px;
+	width: 100%;
+}
+
+/**
+ * 위젯들
+ */
+
+
+.nav-bar {
+	font-size: 20px;
+	background: white;
+	color: #9c27b0;
+	padding: 15px;
+	margin: 0;
+	border-bottom: 2px solid #bdbdbd;
+}
+
+.card {
+	border-radius: 10px;
+	box-shadow: 0 0 8px rgba(0 , 0 , 0 , 0.3);
+	padding: 20px;
+}
+
+
+
+
+/**
+ * 반응형
+ */
+
 @media(min-width: 800px) {
-	.gamepann-header div {
+	.img-main {
+		background: url('https://gamepann.github.io/assets/img/main-pc.jpg');
+	}
+	.container {
 		width: 800px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
