@@ -8,6 +8,7 @@
 body {
 	padding: 0;
 	margin: 0;
+	font-family: 'Nanum Gothic', sans-serif;
 }
 a {
 	color: #1976d2;
@@ -38,6 +39,7 @@ span {
 	background: url('https://gamepann.github.io/assets/img/main.jpg');
 	background-size: cover;
 	color: white;
+	padding: 25px;
 }
 
 
@@ -58,7 +60,7 @@ span {
 	font-size: 20px;
 }
 .article {
-	padding: 10px;
+	padding-top: 15px;
 	font-size: 18px;
 	line-height: 25px;
 }
@@ -70,15 +72,6 @@ span {
 
 .layout-common {
 	padding: 25px;
-}
-
-.layout-horizontal {
-	padding: 25px;
-	overflow: scroll;
-}
-.layout-horizontal div {
-	display: inline;
-	margin-right: 10px;
 }
 
 .container {
@@ -112,9 +105,9 @@ span {
 }
 
 .card {
-	border-radius: 10px;
-	box-shadow: 0 0 8px rgba(0 , 0 , 0 , 0.3);
-	padding: 20px;
+	border-radius: 2px;
+	box-shadow: 0 0 4px rgba(0 , 0 , 0 , 0.3);
+	padding: 25px;
 }
 
 
@@ -127,10 +120,24 @@ span {
 @media(min-width: 800px) {
 	.img-main {
 		background: url('https://gamepann.github.io/assets/img/main-pc.jpg');
+		background-position: center center;
+		padding: 100px;
 	}
 	.container {
 		width: 800px;
 		margin-left: auto;
 		margin-right: auto;
+	}
+	.grid-2 div {
+		margin: 5px;
+		width: 390px;
+	}
+	.grid-3 div {
+		margin: 5px;
+		width: 256px
+	}
+	.grid-4 div {
+		margin: 5px;
+		width: 190px;
 	}
 }
