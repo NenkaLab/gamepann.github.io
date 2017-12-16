@@ -41,6 +41,12 @@ span {
 	color: white;
 	padding: 25px;
 }
+.img-recruit {
+	background: url('https://gamepann.github.io/assets/img/recruit.jpg');
+	background-size: cover;
+	color: white;
+	padding: 25px;
+}
 
 
 /**
@@ -131,6 +137,11 @@ span {
 @media(min-width: 800px) {
 	.img-main {
 		background: url('https://gamepann.github.io/assets/img/main-pc.jpg');
+		background-position: center center;
+		padding: 100px;
+	}
+	.img-recruit {
+		background: url('https://gamepann.github.io/assets/img/recruit-pc.jpg');
 		background-position: center center;
 		padding: 100px;
 	}
