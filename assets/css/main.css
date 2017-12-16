@@ -86,7 +86,7 @@ span {
 .container div {
 	box-sizing: border-box;
 	min-height: 150px;
-	min-width: 150px;
+	min-width: 100px;
 	width: 100%;
 }
 
@@ -109,6 +109,16 @@ span {
 	box-shadow: 0 0 4px rgba(0 , 0 , 0 , 0.3);
 	padding: 25px;
 	margin: 10px;
+}
+
+.footer-default {
+	background: #212121;
+	color: white;
+	padding: 25px;
+	margin-top: 10px;
+}
+.footer-default a {
+	color: white;
 }
 
 
