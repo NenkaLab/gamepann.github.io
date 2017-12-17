@@ -101,6 +101,9 @@ span {
 	min-width: 100px;
 	width: 100%;
 }
+.grid-2-mobile div {
+	width: 50%;
+}
 
 /**
  * 위젯들
