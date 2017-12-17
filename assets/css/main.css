@@ -41,6 +41,12 @@ span {
 	color: white;
 	padding: 25px;
 }
+.img-partnership {
+	background: url('https://gamepann.github.io/assets/img/partnership.jpg');
+	background-size: cover;
+	color: white;
+	padding: 25px;
+}
 .img-recruit {
 	background: url('https://gamepann.github.io/assets/img/recruit.jpg');
 	background-size: cover;
@@ -114,13 +120,15 @@ span {
 	border-radius: 2px;
 	box-shadow: 0 0 4px rgba(0 , 0 , 0 , 0.3);
 	padding: 25px;
-	margin: 10px;
+	margin: 20px;
+	margin-top: 5px;
+	margin-bottom: 25px;
 }
 
 .footer-default {
 	background: #212121;
 	color: white;
-	padding: 25px;
+	padding: 30px;
 	margin-top: 10px;
 }
 .footer-default a {
@@ -137,6 +145,11 @@ span {
 @media(min-width: 800px) {
 	.img-main {
 		background: url('https://gamepann.github.io/assets/img/main-pc.jpg');
+		background-position: center center;
+		padding: 100px;
+	}
+	.img-partnership {
+		background: url('https://gamepann.github.io/assets/img/partnership-pc.jpg');
 		background-position: center center;
 		padding: 100px;
 	}
@@ -161,5 +174,8 @@ span {
 	.grid-4 div {
 		margin: 5px;
 		width: 190px;
+	}
+	.footer-default {
+		padding: 50px;
 	}
 }
